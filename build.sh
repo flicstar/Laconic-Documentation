@@ -13,5 +13,5 @@ source /root/.bashrc
 go version
 hugo version
 
-    
+hugo
 
