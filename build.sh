@@ -7,7 +7,7 @@ export PATH=$PATH:/usr/local/go/bin
 
 
 wget https://github.com/gohugoio/hugo/releases/download/v0.91.0/hugo_0.91.0_Linux-64bit.tar.gz
-tar -xf https://github.com/gohugoio/hugo/releases/download/v0.91.0/hugo_0.91.0_Linux-64bit.tar.gz -C /usr/local/bin
+tar -xf hugo_0.91.0_Linux-64bit.tar.gz -C /usr/local/bin
 source /root/.bashrc
 
 go version
