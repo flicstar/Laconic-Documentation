@@ -1,4 +1,5 @@
 #!/bin/bash
+apt-get update && apt-get install -y wget
 
 wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
 
