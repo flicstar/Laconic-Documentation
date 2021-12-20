@@ -1,6 +1,5 @@
 #!/bin/bash
-apt-get update && apt-get install -y wget
-apt-get install git
+apt-get update && apt-get install -y wget git
 source /root/.bashrc
 
 git status
