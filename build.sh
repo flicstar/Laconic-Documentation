@@ -2,17 +2,13 @@
 apt-get update && apt-get install -y wget git
 
 wget https://dl.google.com/go/go1.13.linux-amd64.tar.gz
-tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz
+tar -C /usr/local -xzf -nv go1.13.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
+
+wget https://github.com/gohugoio/hugo/releases/download/v0.91.0/hugo_extended_0.91.0_Linux-64bit.tar.gz
+tar -xf -nv hugo_extended_0.91.0_Linux-64bit.tar.gz -C /usr/local/bin
+hugo version && rm hugo_extended_0.91.0_Linux-64bit.tar.gz
 source /root/.bashrc
 
-mkdir src
-cd src
-git clone https://github.com/gohugoio/hugo.git
-cd hugo
-go install --tags extended
-source /root/.bashrc
-
-cd
 hugo
 
