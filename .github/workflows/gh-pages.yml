@@ -32,8 +32,8 @@ jobs:
 #        with:
 #          github_token: ${{ secrets.GITHUB_TOKEN }}
 #          publish_dir: ./public
-    fission:
-      - uses: fission-suite/publish-action@v1
+      - name: Deploy
+        uses: fission-suite/publish-action@v1
         with:
           machine_key: ${{ secrets.FISSION_MACHINE_KEY }}
           app_url:
