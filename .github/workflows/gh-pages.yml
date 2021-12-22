@@ -25,17 +25,20 @@ jobs:
 
       - name: Build
         run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-      - name: Deploy
+        
+      - name: 🚀 Publish main branch
+        if: github.ref == 'refs/heads/main'
         uses: fission-suite/publish-action@v1
         with:
           machine_key: ${{ secrets.FISSION_MACHINE_KEY }}
-          app_url:
+          app_url: wicked-junior-orange-deer.fission.app
           build_dir: ./public
+          # the main branch will always be at this subdomain
+      - name: 🚀 Publish PRs
+        if: github.ref != 'refs/heads/main'
+        uses: fission-suite/publish-action@v1
+        with:
+          machine_key: ${{ secrets.FISSION_MACHINE_KEY }}
+          build_dir: ./public
+          # no app_url means a new thin-long-fairy.fission.app subdomain gets created, per PR
 
