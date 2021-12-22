@@ -8,4 +8,4 @@ Laconic Network. The source of truth (proof).
 
 https://discord.gg/qCVTjzVJ
 
-laconic.io
+https://laconic.io
