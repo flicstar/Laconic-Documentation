@@ -34,11 +34,11 @@ jobs:
           app_url: wicked-junior-orange-deer.fission.app
           build_dir: ./public
           # the main branch will always be at this subdomain
-      - name: 🚀 Publish PRs
-        if: github.ref != 'refs/heads/main'
-        uses: fission-suite/publish-action@v1
-        with:
-          machine_key: ${{ secrets.FISSION_MACHINE_KEY }}
-          build_dir: ./public
+#      - name: 🚀 Publish PRs
+#        if: github.ref != 'refs/heads/main'
+#        uses: fission-suite/publish-action@v1
+#        with:
+#          machine_key: ${{ secrets.FISSION_MACHINE_KEY }}
+#          build_dir: ./public
           # no app_url means a new thin-long-fairy.fission.app subdomain gets created, per PR
 
