@@ -6,8 +6,8 @@ apt-get update && apt-get install -y wget
 #export PATH=$PATH:/usr/local/go/bin
 
 wget https://github.com/gohugoio/hugo/releases/download/v0.91.0/hugo_extended_0.91.0_Linux-64bit.tar.gz
-tar -xzf  hugo_extended_0.91.0_Linux-64bit.tar.gz -C /usr/local/bin
-/usr/local/bin/hugo --minify
+tar -xzf  hugo_extended_0.91.0_Linux-64bit.tar.gz 
+./hugo --minify
 
 
 
