@@ -6,6 +6,6 @@ description: "this is meta description"
 
 Laconic Network. The source of truth (proof).
 
-https://discord.gg/qCVTjzVJ
+https://discord.gg/qzhYWvTUDW
 
-https://laconic.io
+https://laconic.com
