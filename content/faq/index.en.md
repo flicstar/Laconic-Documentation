@@ -1,6 +1,6 @@
 ---
-title: "Mostly Asked Questions"
-description: "this is meta description"
+title: "Frequently Asked Questions"
+description: "Common questions asked about the Laconic Networks"
 layout: "faq"
 draft: false
 ---
