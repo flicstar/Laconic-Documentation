@@ -163,10 +163,6 @@ name = "FAQ"
 url = "faq"
 weight = 2
 
-[[Languages.en.menu.main]]
-name = "Glossary"
-url = "glossary"
-weight = 3
 
 # footer menu
 [[Languages.en.menu.footer]]
