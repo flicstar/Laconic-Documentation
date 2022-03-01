@@ -1,6 +1,6 @@
 ---
-question: Discounts for students and Non Profit Organizations?
+question: What is the Laconic network?
 weight: 4
 ---
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque praesentium nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit recusandae maxime perspiciatis iste placeat architecto.
+Laconic Network is a truly decentralized network of data indexers and API providers that solves the problems of off-chain Merkelization of blockchain data. By allowing every byte of data served to DApps to be verified and proven mathematically integral, the Laconic Network will become the catalyst enabler for the true unlocking of blockchain value. 
