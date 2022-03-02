@@ -5,7 +5,7 @@ tags:
   - fundamental
 ---
 
-Ethereum is a [blockchain](blockchain) project with a focus on [smart contracts](smartcontracts), DApps, and DeFi.
+Ethereum is a [blockchain]({{< relref "blockchain" >}} project with a focus on [smart contracts]({{< relref "smartcontract" >}}, DApps, and DeFi.
 
 Ethereum uses a proof-of-work mechanism for achieving consensus among nodes. 
 
