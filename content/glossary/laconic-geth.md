@@ -1,0 +1,8 @@
+---
+title: laconic-geth
+description: Laconic's version of go-ethereum
+tags:
+  - fundamental
+---
+
+`laconic-geth` is a fork of [`go-ethereum`]({{< relref "go-ethereum" >}}) that provides additional functionality for supporting several mechanisms and processes of the Laconic Stack, such as processing statediff objects, relaying state objects to RPC subscribers or writing them to a database. 
