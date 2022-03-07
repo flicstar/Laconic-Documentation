@@ -18,7 +18,7 @@
     "@context": "http://schema.org",
     "@type": "BlogPosting",
     "articleSection": "{{ .Section }}",
-    "name": "{{ .Title | safeJS }}",
+    "name": "{{ (or .Params.question .Params.title .Title) | safeJS }}",
     "headline": "{{ .Title | safeJS }}",
     "alternativeHeadline": "{{ .Params.lead }}",
     "description": "{{ if .Description }}{{ .Description | safeJS }}{{ else }}{{if .IsPage}}{{ .Summary  }}{{ end }}{{ end }}",
