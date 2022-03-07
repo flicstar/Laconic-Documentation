@@ -1,6 +1,6 @@
 ---
 title: WASM (Web Assembly)
-description: 
+description: A binary code format for a virtual machine capable of running inside browsers 
 tags:
   - fundamental
 ---
