@@ -9,5 +9,5 @@ A contract slot, or storage slot, is a 32-byte wide unit of storage for [smart c
 
 Due to these storage rules, finding data can become rather costly, both in terms of time and gas to be spent. 
 
-When the source code of a contract is available, data retrieval can become much easier by generating the storage layout from the source code. [Watchers]({{< relref >}}) can make use of this to efficiently retrieve data from contract slots.
+When the source code of a contract is available, data retrieval can become much easier by generating the storage layout from the source code. [Watchers]({{< relref "watcher" >}}) can make use of this to efficiently retrieve data from contract slots.
 
