@@ -1,6 +1,6 @@
 ---
 title: Validator
-description: A Laconic Network Partner who serves several key functions on the network
+description: A Laconic Network Partner who serves several key functions on the network.
 tags:
   - fundamental
 ---

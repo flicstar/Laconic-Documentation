@@ -13,4 +13,4 @@ Content is public by default. Knowledge of a Content Identifier (CID) is suffici
 
 To ensure that IPFS content remains available to others, participants in the IPFS network can collaborate with each other to agree on "pinning" their content mutually, so their IPFS nodes will continue serving that content. Pinning services offer the same on a commercial basis.
 
-IPFS is a building block of higher-level concepts including [IPLD]({{< relref "ipld" >}}).
+IPFS is a building block of higher-level concepts, including [IPLD]({{< relref "ipld" >}}).

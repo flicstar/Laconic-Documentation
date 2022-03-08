@@ -6,7 +6,7 @@ tags:
   - ethereum
 ---
 
-Merkleization is a technique for computing a [Merkle tree]({{< relref merkletree >}}) from existing data, without storing the entire tree structure in memory or on disk. The result of a Merkleization is the root hash of the Merkle tree. 
+Merkleization is a technique for computing a [Merkle tree]({{< relref merkletree >}}) from existing data without storing the entire tree structure in memory or on disk. The result of a Merkleization is the root hash of the Merkle tree. 
 
 In [Ethereum]({{< relref "ethereum" >}}) context, Merkleization is used for proving that a given transaction is part of the state trie whose root hash is included in a given block header.
 

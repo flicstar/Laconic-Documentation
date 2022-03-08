@@ -10,4 +10,4 @@ A blockchain is a list of records, called blocks, that are linked together using
 When adding a block to a blockchain:
 - **The cryptographic hash** proves the new block has been added to the previous state of the chain.
 - **The timestamp** proves that the transaction data existed at the time of publication in order to get into its hash. 
-- **All blocks contain information about (all the) the previous block(s),** the “chain” is reinforced with each new block added.
+- **All blocks contain information about (all the) the previous block(s);** the “chain” is reinforced with each new block added.
