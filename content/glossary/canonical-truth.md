@@ -1,6 +1,6 @@
 ---
 title: Canonical Truth
-description: The authoritative state of a distributed system, established by consensus among all involved parties.
+description: The authoritative state of a distributed system, established by consensus among all involved parties
 tags:
   - fundamental
 ---

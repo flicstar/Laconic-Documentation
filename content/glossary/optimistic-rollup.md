@@ -1,6 +1,6 @@
 ---
 title: Optimistic Rollup (ORU)
-description: A layer-2 construct for running smart contracts at scale.
+description: A layer-2 construct for running smart contracts at scale
 tags:
   - fundamental
 ---

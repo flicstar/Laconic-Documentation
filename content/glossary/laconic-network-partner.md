@@ -1,6 +1,6 @@
 ---
 title: Laconic Network Partner
-description: An independent business entity that participates in the Laconic Network.
+description: An independent business entity that participates in the Laconic Network
 tags:
   - fundamental
 ---

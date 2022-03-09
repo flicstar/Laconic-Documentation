@@ -1,6 +1,6 @@
 ---
 title: Chain Reorganization
-description: A situation where a node discovers that its local chain is not the canonical chain and switches over to the canonical chain.
+description: A situation where a node discovers that its local chain is not the canonical chain and switches over to the canonical chain
 tags:
   - fundamental
 ---

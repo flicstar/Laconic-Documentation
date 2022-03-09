@@ -1,6 +1,6 @@
 ---
 title: Laconic Stack
-description: A set of services that convert Ethereum data into IPLD blocks.
+description: A set of services that convert Ethereum data into IPLD blocks
 tags:
   - fundamental
 ---

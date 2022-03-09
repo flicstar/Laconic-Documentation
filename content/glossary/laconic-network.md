@@ -1,6 +1,6 @@
 ---
 title: Laconic Network (LN)
-description: An ecosystem for making access to verified blockchain data simpler, faster, and more secure.
+description: An ecosystem for making access to verified blockchain data simpler, faster, and more secure
 tags:
   - fundamental
 ---
