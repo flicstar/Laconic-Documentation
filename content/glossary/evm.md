@@ -14,7 +14,7 @@ Technically, the EVM is a stack-based virtual machine for executing arbitrary co
 
 The EVM is Turing-complete, which means it is theoretically capable of performing all tasks that computers can accomplish (but limited by available memory). In other words, it has no artificial limitations like the lack of loops or other fundamental mechanisms. 
 
-A number of programming languages exist that specifically compile to EVM bytecode, including [Solidity]({{< relref "solidity" >}}), Viper, or LLL. 
+A number of programming languages exist that specifically compile to EVM bytecode, including [Solidity]({{< relref "solidity" >}}), Vyper, or LLL. 
 
 Various implementations of the EVM exist in different programming languages.
 
