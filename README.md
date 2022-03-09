@@ -108,3 +108,16 @@ tags:
 A phonetics term referring to an unsegmentable sound, like the OI in oil. It’s been described as the "[the best word ever](https://www.theatlantic.com/technology/archive/2012/09/here-it-is-the-best-word-ever/262348/)", and while that may or may not be true, the combination of dip, which can refer to a clueless individual, and thong, which is a style of underwear, creates auditory splendor. (Source: [dictionary.com](https://www.dictionary.com/e/s/funny-words/#diphthong))
 
 ```
+
+### Cross-references 
+
+To add cross-references, for example, between FAQ or glossary entries, the Hugo-safe way is to use the [ref and relref shortcodes](https://gohugo.io/content-management/shortcodes/#ref-and-relref).
+
+Example: 
+
+```
+[Ethereum]({{< relref "ethereum" >}})
+[Ethereum]({{< relref "glossary/ethereum" >}})
+```
+
+`relref` returns the relative URL (without the host part; for example, "`/glossary/ethereum`"). If the document name cannot be resolved uniquely (in this case, to "`contents/glossary/ethereum.md`", Hugo generates an error message. Using simple Markdown links is possible but circumvents the URL resolution and validation.
