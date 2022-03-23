@@ -1,10 +1,14 @@
 ---
-title: A title
-description: A new entry to the glossary
+title: 
+description: 
 tags:
-  - fundamental
+  - 
 ---
 
-This is a new entry to the glossary. Edit and test it, then set `draft` to `false` for publishing the entry.
+<!-- Fill the metadata:
+title = glossary term
+description = a *short* description
+tags: (optional) one or more tags
 
+Write a long description in the document body. -->
 
