@@ -4,6 +4,6 @@ description: "Where to connect with the Laconic community."
 weight: 2
 ---
 
-Discord:
+How to stay in touch:
 
-https://discord.com/invite/qzhYWvTUDW
+- [Discord](https://discord.com/invite/qzhYWvTUDW)

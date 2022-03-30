@@ -5,3 +5,5 @@ weight: 4
 ---
 
 Overview content for Validators
+
+TODO add sign up / CTA for Validators 
