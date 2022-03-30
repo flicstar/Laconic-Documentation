@@ -160,6 +160,41 @@ name = "Home"
 url = ""
 weight = 1
 
+# dropdown menu
+[[Languages.en.menu.main]]
+name = "Docs"
+weight = 2
+hasChildren = true
+
+  # dropdown item
+  [[Languages.en.menu.main]]
+  parent = "Docs"
+  name = "DApp developers"
+  URL = "dapp-developers"
+  weight = 1
+
+  # dropdown item
+  [[Languages.en.menu.main]]
+  parent = "Docs"
+  name = "Service providers"
+  URL = "service-providers"
+  weight = 2
+
+
+  # dropdown item
+  [[Languages.en.menu.main]]
+  parent = "Docs"
+  name = "Validators"
+  URL = "validators"
+  weight = 3
+
+  # dropdown item
+  [[Languages.en.menu.main]]
+  parent = "Docs"
+  name = "Members"
+  URL = "members"
+  weight = 4
+
 [[Languages.en.menu.main]]
 name = "FAQ"
 url = "faq"
@@ -175,22 +210,15 @@ name = "Reference"
 url = "reference"
 weight = 4
 
-# dropdown menu
 [[Languages.en.menu.main]]
-name = "Reference"
-weight = 4
-hasChildren = true
-
-  # dropdown item
-  [[Languages.en.menu.main]]
-  parent = "Reference"
-  name = "Watcher reference"
-  URL = "reference/watcher-reference"
-
-[[Languages.en.menu.main]]
-name = "Support"
-url = "support"
+name = "Community"
+url = "community"
 weight = 5
+
+[[Languages.en.menu.main]]
+name = "Tools"
+url = "tools"
+weight = 6
 
 # footer menu
 # [[Languages.en.menu.footer]]
