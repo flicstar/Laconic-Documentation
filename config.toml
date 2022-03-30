@@ -185,7 +185,7 @@ hasChildren = true
   [[Languages.en.menu.main]]
   parent = "Reference"
   name = "Watcher reference"
-  URL = "reference"
+  URL = "reference/watcher-reference"
 
 [[Languages.en.menu.main]]
 name = "Support"
