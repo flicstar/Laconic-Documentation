@@ -170,6 +170,16 @@ name = "Glossary"
 url = "glossary"
 weight = 3
 
+[[Languages.en.menu.main]]
+name = "Reference"
+url = "reference"
+weight = 4
+
+[[Languages.en.menu.main]]
+name = "Support"
+url = "support"
+weight = 5
+
 # footer menu
 # [[Languages.en.menu.footer]]
 # name = "Changelog"
