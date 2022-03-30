@@ -175,6 +175,18 @@ name = "Reference"
 url = "reference"
 weight = 4
 
+# dropdown menu
+[[Languages.en.menu.main]]
+name = "Reference"
+weight = 4
+hasChildren = true
+
+  # dropdown item
+  [[Languages.en.menu.main]]
+  parent = "Reference"
+  name = "Watcher reference"
+  URL = "reference"
+
 [[Languages.en.menu.main]]
 name = "Support"
 url = "support"
