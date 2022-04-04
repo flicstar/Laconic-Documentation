@@ -5,16 +5,19 @@
   <div class="container">
     <h2 class="section-title">{{ .Title }}</h2>
 
-{{ range .Data.Pages.GroupByParam "category" }} 
-      <h3>{{ .Key }}</h3>
-      <div>
-      <ul>
-         {{ range .Pages }}
-            <li><a href="{{ .Permalink }}">{{ .Params.Question }}</a></li>
-	{{ end }}
-      </ul>
-      </div>
-{{ end }}
+      <!-- ht to https://discourse.gohugo.io/t/grouping-content-by-custom-metadata-and-then-sorting-by-custom-metadata-in-both-list-and-single-content-pages/2258/2 -->
+      {{ range .Data.Pages.GroupByParam "category" }} 
+        <h3>{{ .Key }}</h3>
+          <div>
+            <ul>
+              {{ range .Pages }}
+                <li>
+                  <a href="{{ .Permalink }}">{{ .Params.Question }}</a>
+                </li>
+              {{ end }}
+          </ul>
+        </div>
+      {{ end }}
 
     </div>
 </section>
