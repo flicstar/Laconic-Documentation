@@ -1,6 +1,7 @@
 ---
 question: How do I build a Watcher?
 weight: 1
+category: Watcher
 ---
 
 You can build a watcher by interacting with the Laconic SDK. Watchers Watchers are written in TypeScript and then compiled to [WASM](https://webassembly.org/).

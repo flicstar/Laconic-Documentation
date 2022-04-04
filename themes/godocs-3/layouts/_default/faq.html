@@ -1,21 +1,22 @@
 {{ define "main" }}
 
+
 <section class="section pb-0">
   <div class="container">
     <h2 class="section-title">{{ .Title }}</h2>
-    <div class="row masonry-wrapper">
-      {{ range .Pages }}
-        <div class="col-md-6 mb-4">
-          <div class="card card-lg shadow border-0 rounded">
-            <div class="card-body">
-              <h3 class="card-title h5">{{ .Params.question }}</h3>
-              <p class="card-text content">{{ .Content | markdownify }}</p>
-            </div>
-          </div>
-        </div>
-      {{ end }}
+
+{{ range .Data.Pages.GroupByParam "category" }} 
+      <h3>{{ .Key }}</h3>
+      <div>
+      <ul>
+         {{ range .Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Params.Question }}</a></li>
+	{{ end }}
+      </ul>
+      </div>
+{{ end }}
+
     </div>
-  </div>
 </section>
 
 {{ end }}
