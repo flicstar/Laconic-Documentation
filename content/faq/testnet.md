@@ -1,5 +1,5 @@
 ---
-question: Will there be a testnet?
+title: Will there be a testnet?
 weight: 2
 category: Laconic
 ---

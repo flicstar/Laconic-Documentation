@@ -1,0 +1,12 @@
+{{ range .Data.Pages.GroupByParam "category" }} 
+		<h3>{{ .Key }}</h3>
+		<div>
+		<ul>
+			{{ range .Pages }}
+				<li>
+				<a href="{{ .Permalink }}">{{ .Params.Title }}</a>
+				</li>
+			{{ end }}
+		</ul>
+		</div>
+{{ end }}

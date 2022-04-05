@@ -1,5 +1,5 @@
 ---
-question: Who are the Founding Partners?
+title: Who are the Founding Partners?
 weight: 1
 category: Partner
 ---

@@ -1,5 +1,5 @@
 ---
-question: Where can I learn more about Laconic?
+title: Where can I learn more about Laconic?
 weight: 2
 category: Laconic
 ---

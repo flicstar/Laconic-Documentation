@@ -1,5 +1,5 @@
 ---
-question: What is the bridge between Laconic Network and Ethereum?
+title: What is the bridge between Laconic Network and Ethereum?
 weight: 1
 category: Laconic Network
 ---

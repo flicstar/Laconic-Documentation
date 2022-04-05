@@ -1,5 +1,5 @@
 ---
-question: How is the Laconic Network blockchain built?
+title: How is the Laconic Network blockchain built?
 weight: 1
 category: Laconic Network
 ---

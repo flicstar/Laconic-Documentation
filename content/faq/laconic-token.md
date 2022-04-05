@@ -1,5 +1,5 @@
 ---
-question: Will Laconic Network have a token?
+title: Will Laconic Network have a token?
 weight: 2
 category: Laconic Network
 ---

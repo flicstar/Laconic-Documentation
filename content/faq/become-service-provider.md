@@ -1,5 +1,5 @@
 ---
-question: How do I become a Service Provider?
+title: How do I become a Service Provider?
 weight: 1
 category: Partner
 ---

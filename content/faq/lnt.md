@@ -1,5 +1,5 @@
 ---
-question: Where can I buy the Laconic network token (LNT)?
+title: Where can I buy the Laconic network token (LNT)?
 weight: 2
 category: Laconic Network
 ---

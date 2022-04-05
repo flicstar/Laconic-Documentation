@@ -1,5 +1,5 @@
 ---
-question: How can I invest in the Laconic Network?
+title: How can I invest in the Laconic Network?
 weight: 1
 category: Laconic Network
 ---
