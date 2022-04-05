@@ -5,4 +5,25 @@ description: "What are Members and where to get additional information."
 weight: 5
 ---
 
-Overview for Members.
+- short pg. what are members
+- what does Laconic offer for members?
+
+The main benefits of becoming a Laconic member:
+
+-
+-
+-
+
+Requirements are:
+
+-
+-
+-
+
+## Membership process
+
+If you are interested in becoming a Laconic member, please complete the following steps:
+
+1.
+2.
+3.
