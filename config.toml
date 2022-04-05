@@ -98,10 +98,10 @@ enable = false
 preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
-[[params.nav_button]]
-style = "outline" # available style: solid, outline
-label = "changelog"
-link = "changelog"
+# [[params.nav_button]]
+# style = "outline" # available style: solid, outline
+# label = "changelog"
+# link = "changelog"
 
 [[params.nav_button]]
 style = "solid" # available style: solid, outline
@@ -169,10 +169,10 @@ url = "glossary"
 weight = 3
 
 # footer menu
-[[Languages.en.menu.footer]]
-name = "Changelog"
-url = "changelog"
-weight = 1
+# [[Languages.en.menu.footer]]
+# name = "Changelog"
+# url = "changelog"
+# weight = 1
 
 [[Languages.en.menu.footer]]
 name = "contact"
