@@ -1,5 +1,5 @@
 ---
-question: Does Laconic Network support Parity blockchains?
+title: Does Laconic Network support Parity blockchains?
 weight: 2
 category: Laconic Network
 ---

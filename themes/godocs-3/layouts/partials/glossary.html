@@ -1,0 +1,10 @@
+<div>
+	{{ range .Pages.ByTitle }}
+	<article>
+		<details>
+			<summary><strong>{{ .Title }}:</strong> {{ .Description }}</summary>
+			<div class="content">{{ .Content | markdownify }}</div>
+		</details>
+	</article>
+	{{ end }}
+</div>

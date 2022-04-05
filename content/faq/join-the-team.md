@@ -1,5 +1,5 @@
 ---
-question: How can I join the team?
+title: How can I join the team?
 weight: 1
 category: Laconic Network
 ---

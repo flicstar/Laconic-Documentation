@@ -1,5 +1,5 @@
 ---
-question: How do I become a Validator?
+title: How do I become a Validator?
 weight: 1
 category: Partner
 ---

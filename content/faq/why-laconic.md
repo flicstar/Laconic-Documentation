@@ -1,5 +1,5 @@
 ---
-question: Why did you decide to call it Laconic Network?
+title: Why did you decide to call it Laconic Network?
 weight: 2
 category: Laconic Network
 ---

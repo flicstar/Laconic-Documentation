@@ -1,5 +1,5 @@
 ---
-question: I’m a hardware operator; how can I contribute?
+title: I’m a hardware operator; how can I contribute?
 weight: 1
 category: Community
 ---

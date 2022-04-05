@@ -1,5 +1,5 @@
 ---
-question: Does Laconic Network support EVM blockchains?
+title: Does Laconic Network support EVM blockchains?
 weight: 1
 category: Laconic Network
 ---

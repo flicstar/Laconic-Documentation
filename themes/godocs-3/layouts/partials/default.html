@@ -23,7 +23,13 @@
           <div class="content" data-spy="scroll" data-target="#TableOfContents" data-offset="20">{{.Content}}</div>
           {{ else }}
           <div class="page-list">
-            {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode }}
+            {{ if eq .Type "faq" }}
+              {{ partial "faq.html" . }}
+            {{ else if eq .Type "glossary" }}
+              {{ partial "glossary.html" . }}
+            {{ else }}
+              {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode }}
+            {{ end }}
           </div>
           {{ end }}
           <nav class="pagination">

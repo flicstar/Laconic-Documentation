@@ -1,5 +1,5 @@
 ---
-question: How can I participate in Laconic Network as an average user? E.g., running a validator, staking, pooling, etc.
+title: How can I participate in Laconic Network as an average user? E.g., running a validator, staking, pooling, etc.
 weight: 2
 category: Community
 ---

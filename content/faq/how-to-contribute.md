@@ -1,5 +1,5 @@
 ---
-question: I’m a developer; how can I contribute?
+title: I’m a developer; how can I contribute?
 weight: 1
 category: Community
 ---

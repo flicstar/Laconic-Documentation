@@ -1,5 +1,5 @@
 ---
-question: Is Laconic Open Source?
+title: Is Laconic Open Source?
 weight: 2
 category: Laconic Stack
 ---

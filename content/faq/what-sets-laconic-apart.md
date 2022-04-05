@@ -1,5 +1,5 @@
 ---
-question: What sets Laconic apart from competitors?
+title: What sets Laconic apart from competitors?
 weight: 2
 category: Laconic
 ---

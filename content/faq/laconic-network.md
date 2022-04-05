@@ -1,5 +1,5 @@
 ---
-question: What is the Laconic network?
+title: What is the Laconic network?
 weight: 4
 category: Laconic Network
 ---
