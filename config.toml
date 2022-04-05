@@ -73,8 +73,10 @@ white = "#fff"
 light = "#FBFBFB"
 
 # Font Variables
-primary_font = "Open Sans:wght@300;400;500;600;700;800"
+# primary_font = "Open Sans:wght@300;400;500;600;700;800"
+primary_font = "TT Hoves Variable"
 primary_font_type = "sans-serif" # [serif/sans-serif]
+primary_font_path = "static/fonts/tthovesvariable.ttf"
 secondary_font = ""
 secondary_font_type = "" # [serif/sans-serif]
 icon_font = "Font Awesome 5 Free"
