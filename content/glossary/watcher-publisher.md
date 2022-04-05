@@ -5,4 +5,4 @@ tags:
   - fundamental
 ---
 
-A Watcher Publisher writes [Watchers]({{< relref "watcher" >}}) to be put up for auction on the Laconic Network for [Service Providers]({{< relref "service-provider" >}}) to bid for the right to run them/
+A Watcher Publisher writes [Watchers]({{< relref "watcher" >}}) to be put up for auction on the Laconic Network for [Service Providers]({{< relref "service-provider" >}}) to bid for the right to run them.
