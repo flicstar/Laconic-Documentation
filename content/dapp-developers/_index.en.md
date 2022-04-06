@@ -24,7 +24,8 @@ The main benefits of working with the Laconic network are:
 
 ## Next steps
 
-- Stay up-to-date with Laconic news:
+Stay up-to-date with Laconic news:
+
 - Join our Discord server
 - Subscribe to our Telegram channel
 - Sign up for our mailing list
