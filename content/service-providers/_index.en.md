@@ -11,6 +11,7 @@ Service providers run [Watchers](/glossary/watcher/) and serve data to end users
 The main benefits of working with the Laconic network are:
 
 - Join the Service Provider marketplace to be payed a fee by users that access the data that you serve.
+- End-users can become ephemeral service providers by bonding an Approved Asset to run a Watcher in their browser.
 - Laconic Network aims to maintain decentralization while preserving the independence of its partners and service providers, and ensuring minimal interference from governance.
 - The network aims to maintain an open, interoperable system that provides the highest quality services at the lowest costs for all parties.
 

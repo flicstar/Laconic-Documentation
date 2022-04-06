@@ -5,25 +5,29 @@ description: "What are Members and where to get additional information."
 weight: 5
 ---
 
-- short pg. what are members
-- what does Laconic offer for members?
+Laconic Network is operated by Laconic, Ltd. The governance of this privately held company occurs solely on Laconic Network. The global members of this Ltd. are also the [Validators](/glossary/validator/) of Laconic Network.
 
-The main benefits of becoming a Laconic member:
+### Solution details
 
--
--
--
+The main benefits of working with the Laconic network are:
 
-Requirements are:
+- Benefit from participation in [Validator](/glossary/validator/) membership
+- Participate in auction of partner shares
 
--
--
--
+### How to get involved
 
-## Membership process
+If you're interested in becoming a Secondary member you must meet the following minimum requirements:
 
-If you are interested in becoming a Laconic member, please complete the following steps:
+1. Fulfill all [Validator](/validators/#how-to-get-involved) requirements.
+2. Meet certain financial and technical criteria in order to ensure that they will be able to fulfill their obligations, or be able to compensate users should they fail to perform the promised service.
+3. Participate in incentivized testnet to identify potential partners who are technically qualified to operate a Validator
 
-1.
-2.
-3.
+TODO add sign up / CTA for Members
+
+### Next steps
+
+Stay up-to-date with Laconic news:
+
+- Join our Discord server
+- Subscribe to our Telegram channel
+- Sign up for our mailing list
