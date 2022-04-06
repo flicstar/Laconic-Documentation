@@ -5,4 +5,4 @@ weight: 1
 draft: false
 ---
 
-Getting started for DApp developers.
+Coming soon...
