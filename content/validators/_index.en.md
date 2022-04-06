@@ -4,31 +4,35 @@ description: "Validators keep the Laconic Network safe and in consensus."
 weight: 4
 ---
 
-Service providers run [Watchers](/glossary/watcher/) and serve data to end users. As a Laconic [Service Provider](/glossary/service-provider/) you can join the Service Provider Marketplace to become part of a federated cache for serving watcher data. You generate revenue by serving this data and benefit from a sustainable and decentralized operating model for DApp developers.
+[Validators](/glossary/validator/) provide Ethereum state data to service providers and can also serve in the role of service providers, running [Watchers](/glossary/watcher/) as well. Laconic partners are the only possible Validators of the Laconic Network, and as partners are responsible for the overall direction of the network. Validators benefit by charging fees for producing blocks.
 
 ### Solution details
 
-The main benefits of working with the Laconic network are:
+Validators provide a number of key services of the Laconic Network, including:
 
-- Join the Service Provider marketplace to be payed a fee by users that access the data that you serve.
-- Laconic Network aims to maintain decentralization while preserving the independence of its partners and service providers, and ensuring minimal interference from governance.
-- The network aims to maintain an open, interoperable system that provides the highest quality services at the lowest costs for all parties.
-
-Requirements:
-
-- Comply with the laws and regulations of your local jurisdictions, in addition to any agreements formed within the Network or protocols prescribed in the Network bylaws.
+- Partner share auctions
+- State injection from other blockchains
+- Cross-chain asset management
+- Payment channels
+- Data pinning
+- Watcher registration and discovery
+- Service provider registration
+- Fraud proofs
 
 ### How to get involved
 
-- Consider participating as a [Laconic Network Partner](/glossary/laconic-network-partner/) by becoming a [Service Provider](/glossary/service-provider/).
-- As a Service Provider consider acting as a [Validator](/glossary/validator/).
-- Write your own [Watcher](/glossary/watcher/).
+If you're interested in becoming a Validator you must meet the following minimum requirements:
 
-## Next steps
+1. Serve a minimum amount of data, with a low percentage of failures or disputes (e.g. become a service provider)
+2. Demonstrate participation in consensus
+3. Inject state from Ethereum into Laconic Network (e.g. not only run a Watcher, but run the full Laconic Stack)
+4. Must participate in the governance of a legal partnership; therefore any entity wishing to become a validator needs to provide KYC information to the partnership.
 
-- Stay up-to-date with Laconic news:
+TODO add sign up / CTA for Validators
+
+### Next steps
+
+Stay up-to-date with Laconic news:
 - Join our Discord server
 - Subscribe to our Telegram channel
 - Sign up for our mailing list
-
-TODO add sign up / CTA for Validators

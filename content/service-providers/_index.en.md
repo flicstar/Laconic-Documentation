@@ -24,7 +24,7 @@ Requirements:
 - As a Service Provider consider acting as a [Validator](/glossary/validator/).
 - Write your own [Watcher](/glossary/watcher/).
 
-## Next steps
+### Next steps
 
 Stay up-to-date with Laconic news:
 
