@@ -4,7 +4,7 @@
 		<ul>
 			{{ range .Pages }}
 				<li>
-				<a href="{{ .Permalink }}">{{ .Params.Title }}</a>
+				<a href="#{{ .Params.Title | anchorize }}" id="{{ .Params.Title | anchorize }}">{{ .Params.Title }}</a>
 			<div class="content">{{ .Content | markdownify }}</div>
 				</li>
 			{{ end }}
