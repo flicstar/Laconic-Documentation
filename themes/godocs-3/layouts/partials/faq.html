@@ -5,6 +5,7 @@
 			{{ range .Pages }}
 				<li>
 				<a href="{{ .Permalink }}">{{ .Params.Title }}</a>
+			<div class="content">{{ .Content | markdownify }}</div>
 				</li>
 			{{ end }}
 		</ul>
