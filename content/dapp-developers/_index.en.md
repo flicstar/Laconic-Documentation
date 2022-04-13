@@ -1,21 +1,19 @@
 ---
 title: "DApp developers"
-description: "What DApp developers and where to get additional information."
+description: "How Laconic Network benefits DApp developers providing access to blockchain data via Watchers."
 weight: 2
 ---
 
-DApp developers that want to innovate the cutting edge DApps of tomorrow need access to scalable blockchain data in a manner that is fast and cost effective. Laconic removes the burden of blockchain data access for developers by providing easy access to cryptographically proven blockchain data. Additionally, DApp developers can benefit from joining the Laconic network to serve data, or by publishing [Watchers](/glossary/watcher/) to the [Watcher Registry](/glossary/watcher-registry/).
+DApp developers need access to provable blockchain data in a manner that is scalable, fast, and cost effective. Laconic provides data access to DApps via [Watchers](/glossary/watcher/) which can be found via the [Watcher Registry](/glossary/watcher-registry/), generated from Solidity contract code, or written from scratch.
 
 ### Solution details
 
-If you need access to blockchain data to develop the DApps of tomorrow, then consider developing on the Laconic platform:
+The main benefits for developers of working with the Laconic Network are:
 
-The main benefits of working with the Laconic network are:
-
-- No need to run your own Ethereum node to get access to the data that you need.
-- Classic database indexing that enables you to query blockchain data for precisely the information that you need.
-- Break free from dependence on Web2-style centralized services.
-- Off-chain data that can be trusted using cryptographic proofs and IPLDp-based data structures that map back to the block header in a provable way.
+- Fast set up time: minutes instead of months
+- Perform data transformations at the Laconic Watcher level to custom tailor the data API for your DApp
+- Freedom from Web2-style centralized services
+- Data that can be verified using cryptographic proofs
 
 ### How to get involved
 
@@ -26,6 +24,6 @@ The main benefits of working with the Laconic network are:
 
 Stay up-to-date with Laconic news:
 
-- Join our Discord server
-- Subscribe to our Telegram channel
-- Sign up for our mailing list
+- Join our [Discord server](https://discord.com/invite/ukhbBemyxY)
+- Subscribe to our [Telegram channel](https://t.me/laconicnetwork)
+- Sign up for our [mailing list](https://www.laconic.com/)

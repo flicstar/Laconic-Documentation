@@ -4,13 +4,15 @@ date: 2018-12-29T11:02:05+06:00
 description: "this is meta description"
 ---
 
-The Laconic Network (LN) is an ecosystem of validators, service providers, and DApp operators built upon the Laconic Stack. The goals of the Laconic Network include making blockchain data more accessible, providing independent verifiability via cross-chain cryptographic proofs, and serving as a decentralized system for matching DApps in need with service providers.
+The Laconic Network (LN) is an ecosystem of validators, service providers, and DApp operators built upon the Laconic Stack. The Laconic Network makes blockchain data more accessible, enables independent verifiability via cryptographic proofs, and is a decentralized marketplace for matching DApps with service providers to serve custom data APIs known as Watchers.
 
 [Sign up for early access](https://laconic.com)
 
-Referencing the ancient inhabitants of Laconia known for their more concise and terse style of speech, Laconic also describes a manner of speaking or writing that uses only a few words, often to express complex thoughts and ideas.
+## What does "Laconic" mean?
 
-We believe it's the perfect name for the technology we're building, which elegantly simplifies the complexity of blockchain and accelerates DApp development.
+Referencing the ancient inhabitants of Laconia known for their more concise and terse style of speech, <em>Laconic</em> also describes a manner of speaking or writing that uses only a few words, often to express complex thoughts and ideas.
+
+It's the perfect name for technology that simplifies the complexity of blockchain and accelerates DApp development.
 
 ## What sets Laconic apart?
 
@@ -19,6 +21,6 @@ The potential of blockchain technology is currently hampered by the middleware t
 ## Next steps
 
 Stay up-to-date with Laconic news:
-- Join our Discord server
-- Subscribe to our Telegram channel
-- Sign up for our mailing list
+- Join our [Discord server](https://discord.com/invite/ukhbBemyxY)
+- Subscribe to our [Telegram channel](https://t.me/laconicnetwork)
+- Sign up for our [mailing list](https://www.laconic.com/)
