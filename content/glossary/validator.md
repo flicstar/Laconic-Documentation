@@ -5,7 +5,7 @@ tags:
   - fundamental
 ---
 
-A Validator is a [Laconic Network Partner]({{< relref "laconic-network-partner" >}}) who provides a number of key services of the [Laconic Network]({{< relref "laconic-network" >}}), including:
+A Validator is a [Laconic Network Partner]({{< relref "laconic-network-member" >}}) who provides a number of key services of the [Laconic Network]({{< relref "laconic-network" >}}), including:
 
 - Partner share auctions
 - State injection from other blockchains
@@ -16,5 +16,4 @@ A Validator is a [Laconic Network Partner]({{< relref "laconic-network-partner" 
 - Service provider registration
 - Fraud proofs
 
-Validators can also act as a service provider and run [Watchers]({{< relref "watcher" >}}).
-
+Validators can also act as a [Service Provider]({{< relref "service-provider" >}}) and run [Watchers]({{< relref "watcher" >}}).
