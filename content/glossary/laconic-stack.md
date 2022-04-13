@@ -5,5 +5,5 @@ tags:
   - fundamental
 ---
 
-The Laconic Stack is a set of services that reads [Ethereum]({{< relref "ethereum" >}}) [blockchain]({{< relref "blockchain" >}}) data and turns it into [IPLD]({{< relref "ipld" >}}) blocks. The stack includes the [Laconic Core]({{< relref "laconic-core" >}}) and a number of auxiliary services. 
+The Laconic Stack is a set of services that reads {{< glossary "ethereum" "Ethereum" >}} {{< glossary "blockchain" "blockchain" >}} data and turns it into {{< glossary "ipld" "IPLD" >}} blocks. The stack includes the {{< glossary "laconic-core" "Laconic Core" >}} and a number of auxiliary services. 
 

@@ -5,5 +5,5 @@ tags:
   - fundamental
 ---
 
-The Optimistic Rollup Bridge (ORU Bridge) enables cross-chain asset management across [Ethereum]({{< relref "ethereum" >}}) and the [Laconic Network]({{< relref "laconic-network" >}}). As the name implies, the ORU Bridge is based on [Optimistic Rollup]({{< relref "optimistic-rollup" >}}).
+The Optimistic Rollup Bridge (ORU Bridge) enables cross-chain asset management across {{< glossary "ethereum" "Ethereum" >}} and the {{< glossary "laconic-network" "Laconic Network" >}}. As the name implies, the ORU Bridge is based on {{< glossary "optimistic-rollup" "Optimistic Rollup" >}}.
 

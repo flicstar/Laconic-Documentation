@@ -5,5 +5,5 @@ tags:
   - fundamental
 ---
 
-The global state of a distributed system (and more so, a decentralized one) is inherently difficult to observe. The [Laconic Stack]({{< relref "laconic-stack" >}}) helps developers with generating an accurate global view of Ethereum state, by providing access to data collected from multiple nodes.
+The global state of a distributed system (and more so, a decentralized one) is inherently difficult to observe. The {{< glossary "laconic-stack" "Laconic Stack" >}} helps developers with generating an accurate global view of Ethereum state, by providing access to data collected from multiple nodes.
 

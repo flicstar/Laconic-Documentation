@@ -5,4 +5,4 @@ tags:
   - fundamental
 ---
 
-A DApp Operator takes care of deploying and operating a [Decentralized App]({{< relref "dapp" >}}).
+A DApp Operator takes care of deploying and operating a {{< glossary "dapp" "Decentralized App" >}}.
