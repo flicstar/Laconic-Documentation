@@ -206,19 +206,9 @@ url = "glossary"
 weight = 3
 
 [[Languages.en.menu.main]]
-name = "Reference"
-url = "reference"
-weight = 4
-
-[[Languages.en.menu.main]]
 name = "Community"
 url = "community"
 weight = 5
-
-[[Languages.en.menu.main]]
-name = "Tools"
-url = "tools"
-weight = 6
 
 # footer menu
 # [[Languages.en.menu.footer]]

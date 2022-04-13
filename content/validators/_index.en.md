@@ -27,6 +27,7 @@ If you're interested in becoming a Validator you must meet the following minimum
 2. Demonstrate participation in consensus
 3. Inject state from Ethereum into Laconic Network (e.g. not only run a Watcher, but run the full Laconic Stack)
 4. Must participate in the governance of a legal partnership; therefore any entity wishing to become a validator needs to provide KYC information to the partnership.
+5. Comply with the laws and regulations of your local jurisdictions, in addition to any agreements formed within the Network or protocols prescribed in the Network bylaws.
 
 TODO add sign up / CTA for Validators
 
