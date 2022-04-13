@@ -92,7 +92,13 @@
 {{ with $currentNode.File }}{{ $currentNodeFileUniqueID = .UniqueID }}{{ end }}
 <li data-nav-id="{{.Permalink}}" title="{{.Title}}"
   class="sidelist {{if .IsAncestor $currentNode }}parent{{end}} {{if eq $fileUniqueID $currentNodeFileUniqueID}}active{{end}}">
-  <a href="{{.Permalink}}">{{.Title }}</a>
+  {{ if eq .Type "faq" }}
+    <a href="{{ print "#" .File.BaseFileName | path.Join .Type | relURL }}">{{ .Params.Title }}</a>
+  {{ else if eq .Type "glossary" }}
+    <a href="{{ print "#" .File.BaseFileName | path.Join .Type | relURL }}">{{ .Title }}</a>
+  {{ else }}
+    <a href="{{.Permalink}}">{{.Title }}</a>
+  {{end}}
   {{ $numberOfPages := (add (len .Pages) (len .Sections)) }}
   {{ if ne $numberOfPages 0 }}
   <ul>
