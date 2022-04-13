@@ -1,8 +1,8 @@
 ---
 title: Dapp Developer
-description: A developer who is building a decentralized application
+description: A developer who builds a decentralized application
 tags:
   - fundamental
 ---
 
-(This is the same as the DApp Operator definition -- let's clarify the difference between the two before adding this)A Dapp Developer takes care of deploying and operating a [Decentralized App]({{< relref "dapp" >}}).
+Dapp developers enter into agreements with [Service Providers]({{< relref "service-provider" >}}) to gain fast and inexpensive access to caches of blockchain data. Developers use the [Laconic SDK]({{< relref "laconic-sdk" >}}) to query [Watchers]({{< relref "watchers" >}}).

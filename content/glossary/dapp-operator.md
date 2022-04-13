@@ -5,4 +5,4 @@ tags:
   - fundamental
 ---
 
-A DApp Operator takes care of deploying and operating a [Decentralized App]({{< relref "dapp" >}}).
+Dapp Operators write and publish Watchers for the Laconic [Watcher Registry]({{< relref "watcher-registry" >}}). Some Dapp Operators can also become [Service Providers]({{< relref "service-provider" >}}) by using the Laconic Stack to run Watchers.
