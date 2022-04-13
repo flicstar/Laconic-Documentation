@@ -1,7 +1,7 @@
 ---
 title: Where can I buy the Laconic network token (LNT)?
 weight: 2
-category: Laconic Network
+category: Laconic Token
 ---
 
-Secondary Partners are added via auctions and acquire a portion of the LNT allocated to the Validator Partnership.
+Secondary Members are added via auctions and acquire a portion of the LNT allocated to the Validator Membership.
