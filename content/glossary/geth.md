@@ -5,8 +5,10 @@ tags:
   - fundamental
 ---
 
-Geth is a universal command-line client for Ethereum. Geth can create a new Ethereum node and connect to existing Ethereum networks or build a private network of multiple Geth nodes. 
+Geth is a universal command-line client for Ethereum, and can be used to achieve the following:
+
+- Create a new Ethereum node.
+- Connect to existing Ethereum networks.
+- Build a private network of multiple Geth nodes.
 
 Geth is part of the [go-ethereum]({{< relref "go-ethereum" >}}) project.
-
-
