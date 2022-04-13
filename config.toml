@@ -90,7 +90,7 @@ favicon = "images/favicon.png"
 description = "This is meta description"
 author = "Themefisher"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+# contact_form_action = "#" # contact form works with https://formspree.io
 # table of content on document page
 table_of_content = true
 
@@ -105,10 +105,10 @@ preloader = "" # use jpg, png, svg or gif format.
 # label = "changelog"
 # link = "changelog"
 
-[[params.nav_button]]
-style = "solid" # available style: solid, outline
-label = "contact"
-link = "contact"
+#[[params.nav_button]]
+#style = "solid" # available style: solid, outline
+#label = "contact"
+#link = "contact"
 
 
 ############################# social site ########################
@@ -160,6 +160,15 @@ name = "Home"
 url = ""
 weight = 1
 
+
+[[Languages.en.menu.main]]
+name = "Docs"
+url = "docs"
+weight = 2
+hasChildren = false
+
+  
+
 [[Languages.en.menu.main]]
 name = "FAQ"
 url = "faq"
@@ -170,18 +179,20 @@ name = "Glossary"
 url = "glossary"
 weight = 3
 
+[[Languages.en.menu.main]]
+name = "Community"
+url = "community"
+weight = 5
+
 # footer menu
-# [[Languages.en.menu.footer]]
-# name = "Changelog"
-# url = "changelog"
-# weight = 1
 
 [[Languages.en.menu.footer]]
-name = "contact"
-url = "contact"
+name = "Laconic.com"
+url = "https://laconic.com"
 weight = 2
 
+
 [[Languages.en.menu.footer]]
-name = "Github"
-url = "https://github.com/themefisher/"
+name = "GitHub"
+url = "https://github.com/orgs/LaconicNetwork/"
 weight = 3
