@@ -121,7 +121,7 @@ To add cross-references to FAQ or glossary entries, use the following Hugo short
 Examples:
 
 ```
-A Validator is a {{< glossary "laconic-network" "Laconic Network" >}} partner.
+A Validator is a {{< glossary "laconic-network" "Laconic Network" >}} member.
 {{< faq "watcher" "Watchers" >}} query, cache, and transform blockchain data for DApps.
 ```
 
