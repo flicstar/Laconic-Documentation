@@ -122,6 +122,14 @@
       color: $text-color-dark;
     }
   }
+  // specific to links inside FAQ and glossary content
+  ul .content, il .content {
+    a {
+    text-decoration: underline;
+    font-size: 100%;
+    color: $primary-color;
+  }
+}
 }
 
 .pagination {
@@ -556,6 +564,7 @@ pre {
 
   &>ul {
     padding-top: 30px;
+
 
     &>li:not(:last-child) {
       border-bottom: 1px solid $border-color;
