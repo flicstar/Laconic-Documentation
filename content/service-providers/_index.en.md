@@ -19,16 +19,10 @@ Requirements:
 
 - Comply with the laws and regulations of your local jurisdictions, in addition to any agreements formed within the Network or protocols prescribed in the Network bylaws.
 
-### How to get involved
-
-- Consider participating as a [Laconic Network Partner](/glossary/laconic-network-partner/) by becoming a [Service Provider](/glossary/service-provider/).
-- As a Service Provider consider acting as a [Validator](/glossary/validator/).
-- Write your own [Watcher](/glossary/watcher/).
-
 ### Next steps
 
 Stay up-to-date with Laconic news:
 
-- Join our Discord server
-- Subscribe to our Telegram channel
-- Sign up for our mailing list
+- Join our [Discord server](https://discord.com/invite/ukhbBemyxY)
+- Subscribe to our [Telegram channel](https://t.me/laconicnetwork)
+- Sign up for our [mailing list](https://www.laconic.com/)

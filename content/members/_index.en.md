@@ -10,6 +10,6 @@ Laconic Network is operated by Laconic, Ltd. The governance of this privately he
 
 Stay up-to-date with Laconic news:
 
-- Join our Discord server
-- Subscribe to our Telegram channel
-- Sign up for our mailing list
+- Join our [Discord server](https://discord.com/invite/ukhbBemyxY)
+- Subscribe to our [Telegram channel](https://t.me/laconicnetwork)
+- Sign up for our [mailing list](https://www.laconic.com/)
