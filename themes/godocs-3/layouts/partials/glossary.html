@@ -1,10 +1,12 @@
 <div>
 	{{ range .Pages.ByTitle }}
-	<article>
+	<ul>
 		<details>
-			<summary><strong>{{ .Title }}:</strong> {{ .Description }}</summary>
+			<summary>
+				<a href="#{{ .File.BaseFileName | anchorize }}" id="{{ .File.BaseFileName | anchorize }}" class="anchor"></a>
+				<strong>{{ .Title }}:</strong> {{ .Description }}</summary>
 			<div class="content">{{ .Content | markdownify }}</div>
 		</details>
-	</article>
+	</ul>
 	{{ end }}
 </div>

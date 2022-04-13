@@ -5,7 +5,7 @@ tags:
   - fundamental
 ---
 
-Ethereum is a public, decentralized [blockchain]({{< relref "blockchain" >}}) that supports [smart contracts]({{< relref "smartcontract" >}}), DApps, and DeFi.
+Ethereum is a public, decentralized {{< glossary "blockchain" >}} that supports {{< glossary "smartcontract" "smart contracts" >}}, DApps, and DeFi.
 
 Ethereum currently uses a proof-of-work mechanism for achieving consensus among nodes, with plans to change to a proof-of-stake mechanism. 
 

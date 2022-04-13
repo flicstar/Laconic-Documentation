@@ -111,13 +111,17 @@ A phonetics term referring to an unsegmentable sound, like the OI in oil. It’s
 
 ### Cross-references 
 
-To add cross-references, for example, between FAQ or glossary entries, the Hugo-safe way is to use the [ref and relref shortcodes](https://gohugo.io/content-management/shortcodes/#ref-and-relref).
-
-Example: 
+To add cross-references to FAQ or glossary entries, use the following Hugo shortcodes:
 
 ```
-[Ethereum]({{< relref "ethereum" >}})
-[Ethereum]({{< relref "glossary/ethereum" >}})
+{{< glossary "<file-base-name>" "<optional-link-text>" >}}
+{{< faq "<file-base-name>" "<optional-link-text>" >}}
 ```
 
-`relref` returns the relative URL (without the host part; for example, "`/glossary/ethereum`"). If the document name cannot be resolved uniquely (in this case, to "`contents/glossary/ethereum.md`", Hugo generates an error message. Using simple Markdown links is possible but circumvents the URL resolution and validation.
+Examples:
+
+```
+A Validator is a {{< glossary "laconic-network" "Laconic Network" >}} partner.
+{{< faq "watcher" "Watchers" >}} query, cache, and transform blockchain data for DApps.
+```
+

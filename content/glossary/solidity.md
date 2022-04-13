@@ -7,7 +7,7 @@ tags:
 
 Solidity is an object-oriented, statically-typed programming language created for implementing smart contracts on the Ethereum blockchain. 
 
-Solidity is one of several languages that compile to [EVM]({{< relref "evm" >}}) bytecode. 
+Solidity is one of several languages that compile to {{< glossary "evm" "EVM" >}} bytecode. 
 
 
 
