@@ -1,5 +1,5 @@
 ---
-title: "Laconic Network Members and Validators"
+title: "Test"
 description: "Laconic Members and Validators are non-natural person entities distributed geographically who ensure the governance and operations of the network."
 weight: 5
 ---
