@@ -90,7 +90,7 @@ favicon = "images/favicon.png"
 description = "This is meta description"
 author = "Themefisher"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+# contact_form_action = "#" # contact form works with https://formspree.io
 # table of content on document page
 table_of_content = true
 
@@ -105,10 +105,10 @@ preloader = "" # use jpg, png, svg or gif format.
 # label = "changelog"
 # link = "changelog"
 
-[[params.nav_button]]
-style = "solid" # available style: solid, outline
-label = "contact"
-link = "contact"
+#[[params.nav_button]]
+#style = "solid" # available style: solid, outline
+#label = "contact"
+#link = "contact"
 
 
 ############################# social site ########################
@@ -160,40 +160,14 @@ name = "Home"
 url = ""
 weight = 1
 
-# dropdown menu
+
 [[Languages.en.menu.main]]
 name = "Docs"
+url = "docs"
 weight = 2
-hasChildren = true
+hasChildren = false
 
-  # dropdown item
-  [[Languages.en.menu.main]]
-  parent = "Docs"
-  name = "DApp developers"
-  URL = "dapp-developers"
-  weight = 1
-
-  # dropdown item
-  [[Languages.en.menu.main]]
-  parent = "Docs"
-  name = "Service providers"
-  URL = "service-providers"
-  weight = 2
-
-
-  # dropdown item
-  [[Languages.en.menu.main]]
-  parent = "Docs"
-  name = "Validators"
-  URL = "validators"
-  weight = 3
-
-  # dropdown item
-  [[Languages.en.menu.main]]
-  parent = "Docs"
-  name = "Members"
-  URL = "members"
-  weight = 4
+  
 
 [[Languages.en.menu.main]]
 name = "FAQ"
@@ -211,17 +185,14 @@ url = "community"
 weight = 5
 
 # footer menu
-# [[Languages.en.menu.footer]]
-# name = "Changelog"
-# url = "changelog"
-# weight = 1
 
 [[Languages.en.menu.footer]]
-name = "contact"
-url = "contact"
+name = "Laconic.com"
+url = "https://laconic.com"
 weight = 2
 
+
 [[Languages.en.menu.footer]]
-name = "Github"
+name = "GitHub"
 url = "https://github.com/orgs/LaconicNetwork/"
 weight = 3
