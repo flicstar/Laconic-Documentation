@@ -59,23 +59,39 @@ New FAQ entries contain this front matter section:
 
 ```
 ---
-question:
+title:
 weight: 999
+category: laconic-network
 ---
 ```
 
-- Add the question to the `question` field, without surrounding quotes.
+- Add the question to the `title` field, without surrounding quotes.
 - The `weight` entry specifies the sequence of FAQ entries. In other words, FAQ entries are sorted by weight in ascending order. Typically you would set this to the count of existing FAQ files (including the new one). If you want to move that item to a higher position, you would need to change the weights of all entries that shall appear after the new one. 
+- `category` groups entries into given categories. The value for `category` must be one of:
+  - laconic-network
+  - laconic-token
+  - validators-members
+  - dapps-watchers
 - Write the answer below the front matter. You can use Markdown formatting here.
 
 Example:
 ```
 ---
-question: Pepsi or Coke?
+title: How do I build a Watcher?
 weight: 8
+category: dapps-watchers 
 ---
 It depends.
 ```
+
+The categories can be edited in `data/categories/faq`. Each category is a YAML file with this structure:
+```yaml
+id: dapps-watchers
+name: DApps & Watchers
+weight: 4
+```
+
+On the FAQ page, the categories are sorted by their `weight` value.
 
 ### Adding glossary entries
 
@@ -111,13 +127,20 @@ A phonetics term referring to an unsegmentable sound, like the OI in oil. It’s
 
 ### Cross-references 
 
-To add cross-references, for example, between FAQ or glossary entries, the Hugo-safe way is to use the [ref and relref shortcodes](https://gohugo.io/content-management/shortcodes/#ref-and-relref).
-
-Example: 
+To add cross-references to FAQ or glossary entries, use the following Hugo shortcodes:
 
 ```
-{{< glossary "ethereum" "Ethereum" >}}
-{{< glossary "glossary/ethereum" "Ethereum" >}}
+{{< glossary "<file-base-name>" "<optional-link-text>" >}}
+{{< faq "<file-base-name>" "<optional-link-text>" >}}
 ```
 
-`relref` returns the relative URL (without the host part; for example, "`/glossary/ethereum`"). If the document name cannot be resolved uniquely (in this case, to "`contents/glossary/ethereum.md`", Hugo generates an error message. Using simple Markdown links is possible but circumvents the URL resolution and validation.
+The link text can be omitted if it happens to be identical to `file-base-name`.
+
+Examples:
+
+```
+A Validator is a {{< glossary "laconic-network" "Laconic Network" >}} member.
+{{< faq "watcher" "Watchers" >}} query, cache, and transform blockchain data for DApps.
+10 ways of querying a {{< glossary "blockchain" >}}.
+```
+

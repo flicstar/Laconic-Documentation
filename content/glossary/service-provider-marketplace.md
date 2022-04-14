@@ -5,4 +5,4 @@ tags:
   - fundamental
 ---
 
-The marketplace matches Watcher publishers with [Service Providers]({{< relref "service-provider" >}}) who will form the Federated Cache for that Watcher. Revenue is also generated from Watcher and Service Provider registration.
+The marketplace matches Watcher publishers with {{< glossary "service-provider" "Service Providers" >}} who will form the Federated Cache for that Watcher. Revenue is also generated from Watcher and Service Provider registration.

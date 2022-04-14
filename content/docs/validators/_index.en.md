@@ -4,7 +4,7 @@ description: "Validators keep the Laconic Network safe and in consensus."
 weight: 4
 ---
 
-[Validators](/glossary/validator/) provide Ethereum state data to service providers and can also serve in the role of service providers, running [Watchers](/glossary/watcher/) as well. Laconic partners are the only possible Validators of the Laconic Network, and as partners are responsible for the overall direction of the network. Validators benefit by charging fees for producing blocks.
+{{< glossary "validator/" "Validators" >}} provide Ethereum state data to service providers and can also serve in the role of service providers, running {{< glossary "watcher/" "Watchers" >}} as well. Laconic partners are the only possible Validators of the Laconic Network, and as partners are responsible for the overall direction of the network. Validators benefit by charging fees for producing blocks.
 
 ### Solution details
 

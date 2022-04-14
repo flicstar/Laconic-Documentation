@@ -4,7 +4,7 @@ description: "What are Laconic Service Providers and where to get additional inf
 weight: 3
 ---
 
-Service providers run [Watchers](/glossary/watcher/) and serve data to end users. As a Laconic [Service Provider](/glossary/service-provider/) you can join the Service Provider Marketplace to become part of a federated cache for serving watcher data. You generate revenue by serving this data and benefit from a sustainable and decentralized operating model for DApp developers.
+Service providers run {{< glossary "watcher/" "Watchers" >}} and serve data to end users. As a Laconic {{< glossary "service-provider/" "Service Provider" >}} you can join the Service Provider Marketplace to become part of a federated cache for serving watcher data. You generate revenue by serving this data and benefit from a sustainable and decentralized operating model for DApp developers.
 
 ### Solution details
 

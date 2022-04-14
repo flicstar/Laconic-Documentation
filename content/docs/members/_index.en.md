@@ -4,7 +4,7 @@ description: "Laconic Members and Validators are non-natural person entities dis
 weight: 5
 ---
 
-Laconic Network is operated by Laconic, Ltd. The governance of this privately held company occurs solely on-chain by Laconic Members. The global members of this Ltd. are also the [Validators](/glossary/validator/) of Laconic Network.
+Laconic Network is operated by Laconic, Ltd. The governance of this privately held company occurs solely on-chain by Laconic Members. The global members of this Ltd. are also the {{< glossary "validator/" "Validators" >}} of Laconic Network.
 
 ### Next steps
 

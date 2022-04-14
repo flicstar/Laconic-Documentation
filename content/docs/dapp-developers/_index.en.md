@@ -4,7 +4,7 @@ description: "How Laconic Network benefits DApp developers providing access to b
 weight: 2
 ---
 
-DApp developers need access to provable blockchain data in a manner that is scalable, fast, and cost effective. Laconic provides data access to DApps via [Watchers](/glossary/watcher/) which can be found via the [Watcher Registry](/glossary/watcher-registry/), generated from Solidity contract code, or written from scratch.
+DApp developers need access to provable blockchain data in a manner that is scalable, fast, and cost effective. Laconic provides data access to DApps via {{< glossary "watcher/" "Watchers" >}} which can be found via the {{< glossary "watcher-registry/" "Watcher Registry" >}}, generated from Solidity contract code, or written from scratch.
 
 ### Solution details
 
@@ -17,8 +17,8 @@ The main benefits for developers of working with the Laconic Network are:
 
 ### How to get involved
 
-- Consider participating as a [Laconic Network Partner](/glossary/laconic-network-partner/) by becoming a [DApp Operator](/glossary/dapp-operator/).
-- Develop a [Watcher](/glossary/watcher/) and make it available from the [Watcher Registry](/glossary/watcher-registry/).
+- Consider participating as a {{< glossary "laconic-network-partner/" "Laconic Network Partner" >}} by becoming a {{< glossary "dapp-operator/" "DApp Operator" >}}.
+- Develop a {{< glossary "watcher/" "Watcher" >}} and make it available from the {{< glossary "watcher-registry/" "Watcher Registry" >}}.
 
 ### Next steps
 
