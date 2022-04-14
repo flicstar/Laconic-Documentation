@@ -61,21 +61,37 @@ New FAQ entries contain this front matter section:
 ---
 title:
 weight: 999
+category: laconic-network
 ---
 ```
 
 - Add the question to the `title` field, without surrounding quotes.
 - The `weight` entry specifies the sequence of FAQ entries. In other words, FAQ entries are sorted by weight in ascending order. Typically you would set this to the count of existing FAQ files (including the new one). If you want to move that item to a higher position, you would need to change the weights of all entries that shall appear after the new one. 
+- `category` groups entries into given categories. The value for `category` must be one of:
+  - laconic-network
+  - laconic-token
+  - validators-members
+  - dapps-watchers
 - Write the answer below the front matter. You can use Markdown formatting here.
 
 Example:
 ```
 ---
-title: Pepsi or Coke?
+title: How do I build a Watcher?
 weight: 8
+category: dapps-watchers 
 ---
 It depends.
 ```
+
+The categories can be edited in `data/categories/faq`. Each category is a YAML file with this structure:
+```yaml
+id: dapps-watchers
+name: DApps & Watchers
+weight: 4
+```
+
+On the FAQ page, the categories are sorted by their `weight` value.
 
 ### Adding glossary entries
 
