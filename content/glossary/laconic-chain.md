@@ -5,4 +5,4 @@ tags:
   - fundamental
 ---
 
-The Laconic Chain is...
+The Laconic Chain is the proof of stake network built on the {{< glossary "cosmos-sdk" "Cosmos SDK" >}} and {{< glossary "ethermint" "Ethermint" >}} that powers the Laconic Network.

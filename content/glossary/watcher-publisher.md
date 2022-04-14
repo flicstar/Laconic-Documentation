@@ -5,4 +5,4 @@ tags:
   - fundamental
 ---
 
-A Watcher Publisher writes [Watchers]({{< relref "watcher" >}}) to be put up for auction on the Laconic Network. At auction, [Service Providers]({{< relref "service-provider" >}}) bid for the right to run the Watchers. Approved Watchers are listed in the [Watcher Registry](({{< relref "watcher-registry" >}})), which facilitates their discovery by DApp developers who require access to the data.
+A Watcher Publisher writes {{< glossary "watcher" "Watchers" >}} to be put up for auction on the Laconic Network. At auction, {{< glossary "service-provider" "Service Providers" >}} bid for the right to run the Watchers. Approved Watchers are listed in the {{< glossary "watcher-registry" "Watcher Registry" >}}, which facilitates their discovery by DApp developers who require access to the data.

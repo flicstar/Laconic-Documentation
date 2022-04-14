@@ -5,4 +5,4 @@ tags:
   - fundamental
 ---
 
-The DXOS Naming Service (DXNS) is a custom blockchain built using [Cosmos SDK]({{< relref "cosmos-sdk" >}}).
+The DXOS Naming Service (DXNS) is a custom blockchain built using {{< glossary "cosmos-sdk" "Cosmos SDK" >}}.
