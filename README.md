@@ -116,8 +116,8 @@ To add cross-references, for example, between FAQ or glossary entries, the Hugo-
 Example: 
 
 ```
-[Ethereum]({{< relref "ethereum" >}})
-[Ethereum]({{< relref "glossary/ethereum" >}})
+{{< glossary "ethereum" "Ethereum" >}}
+{{< glossary "glossary/ethereum" "Ethereum" >}}
 ```
 
 `relref` returns the relative URL (without the host part; for example, "`/glossary/ethereum`"). If the document name cannot be resolved uniquely (in this case, to "`contents/glossary/ethereum.md`", Hugo generates an error message. Using simple Markdown links is possible but circumvents the URL resolution and validation.
