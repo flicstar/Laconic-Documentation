@@ -134,10 +134,13 @@ To add cross-references to FAQ or glossary entries, use the following Hugo short
 {{< faq "<file-base-name>" "<optional-link-text>" >}}
 ```
 
+The link text can be omitted if it happens to be identical to `file-base-name`.
+
 Examples:
 
 ```
 A Validator is a {{< glossary "laconic-network" "Laconic Network" >}} member.
 {{< faq "watcher" "Watchers" >}} query, cache, and transform blockchain data for DApps.
+10 ways of querying a {{< glossary "blockchain" >}}.
 ```
 
