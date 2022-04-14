@@ -5,4 +5,4 @@ tags:
   - fundamental
 ---
 
-The DXOS Naming Service (DXNS) is a custom blockchain built using {{< glossary "cosmos-sdk" "Cosmos SDK" >}}.
+The DXOS naming service is a feature of the Laconic Chain which allows the resolution of arbitrary names to arbitrary data. It is implemented as a {{< glossary "cosmos-sdk" "Cosmos SDK" >}} module. It will be used for, among other things, powering the Laconic Registry.
