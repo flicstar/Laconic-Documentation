@@ -5,5 +5,5 @@ tags:
   - fundamental
 ---
 
-The Watcher Registry is a collection of [smart contracts]({{< relref "smartcontract" >}}) that allows [Watcher]({{< relref "watcher" >}}) developers to make their Watcher cache available to others for a fee.
+The Watcher Registry is a collection of {{< glossary "smartcontract" "smart contracts" >}} that allows {{< glossary "watcher" "Watcher" >}} developers to make their Watcher cache available to others for a fee.
 

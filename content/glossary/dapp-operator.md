@@ -5,4 +5,4 @@ tags:
   - fundamental
 ---
 
-Dapp Operators write and publish Watchers for the Laconic [Watcher Registry]({{< relref "watcher-registry" >}}). Dapp Operators can also become [Service Providers]({{< relref "service-provider" >}}) by using the Laconic Stack to run [Watchers]({{< relref "watchers" >}}).
+Dapp Operators write and publish Watchers for the Laconic {{< glossary "watcher-registry" "Watcher Registry" >}}. Dapp Operators can also become {{< glossary "service-provider" "Service Providers" >}} by using the Laconic Stack to run {{< glossary "watchers" "Watchers" >}}.
