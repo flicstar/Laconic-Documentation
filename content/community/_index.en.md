@@ -6,6 +6,8 @@ weight: 2
 
 Stay up-to-date with Laconic news:
 
-- Join our [Discord server]((https://discord.com/invite/qzhYWvTUDW))
-- Subscribe to our Telegram channel
-- Sign up for our mailing list
+- Ask questions [on our forum](https://laconic.community).
+- Join our [Discord server](https://discord.com/invite/ukhbBemyxY)
+- Subscribe to our [Telegram channel](https://t.me/laconicnetwork)
+- Sign up for our [mailing list](https://www.laconic.com/)
+

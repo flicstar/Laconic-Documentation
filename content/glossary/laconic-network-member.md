@@ -5,4 +5,4 @@ tags:
   - fundamental
 ---
 
-Laconic Network is operated by Laconic, Ltd. The governance of this privately held company occurs solely on-chain by Laconic Members acting in one or more roles. Members can act as {{< glossary "validator" "Validators" >}}, {{< glossary "service-provider" "Service Providers" >}}, [DApp operators]({{< relref dapp-operator >}}), or a mix of these roles. The global members of this Ltd. are also the only Validators of the Laconic Network.
+Laconic Network is operated by Laconic, Ltd. The governance of this privately held company occurs solely on-chain by Laconic Network Members. Members run the blockchain {{< glossary "validator" "Validators" >}} and are also {{< glossary "service-provider" "Service Providers" >}} running {{< glossary "watcher" "Watchers" >}}.

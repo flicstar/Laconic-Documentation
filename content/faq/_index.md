@@ -1,4 +1,4 @@
 ---
 title: "Frequently Asked Questions"
-description: "Common questions asked about the Laconic Networks"
+description: "Common questions asked about the Laconic Network"
 ---
