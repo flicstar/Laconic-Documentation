@@ -1,7 +1,7 @@
 ---
 title: "Community"
 description: "Where to connect with the Laconic community."
-weight: 2
+weight: 8
 ---
 
 Welcome to the Laconic Community! Here are the places where you can interact with Laconic Members, Validators, Service Providers, and DApp developers.

@@ -113,24 +113,34 @@ preloader = "" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
 [[params.social]]
-title = "facebook"
-icon = "fab fa-facebook" # fontawesome icon : https://fontawesome.com/icons
-link = "#"
-
-[[params.social]]
 title = "twitter"
 icon = "fab fa-twitter" # fontawesome icon : https://fontawesome.com/icons
-link = "#"
+link = "https://twitter.com/laconicnetwork"
+
+[[params.social]]
+title = "discord"
+icon = "fab fa-discord" # fontawesome icon : https://fontawesome.com/icons
+link = "https://discord.com/invite/ukhbBemyxY"
+
+[[params.social]]
+title = "telegram"
+icon = "fab fa-telegram" # fontawesome icon : https://fontawesome.com/icons
+link = "https://t.me/laconicnetwork"
 
 [[params.social]]
 title = "github"
 icon = "fab fa-github" # fontawesome icon : https://fontawesome.com/icons
-link = "#"
+link = "https://github.com/orgs/LaconicNetwork/"
 
 [[params.social]]
-title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon : https://fontawesome.com/icons
-link = "#"
+title = "facebook"
+icon = "fab fa-facebook" # fontawesome icon : https://fontawesome.com/icons
+link = "https://m.facebook.com/laconicnetwork/"
+
+[[params.social]]
+title = "reddit"
+icon = "fab fa-reddit" # fontawesome icon : https://fontawesome.com/icons
+link = "https://www.reddit.com/r/LaconicNetwork/"
 
 
 ################################### English language #####################################
@@ -192,8 +202,4 @@ url = "https://laconic.com"
 weight = 2
 
 
-[[Languages.en.menu.footer]]
-name = "GitHub"
-url = "https://github.com/orgs/LaconicNetwork/"
-weight = 3
 

@@ -5,7 +5,7 @@ description: "Documentation for the Laconic Network. Laconic provides accurate, 
 
 The Laconic Network is an ecosystem of {{< glossary "laconic-network-member" "Members" >}}, {{< glossary "validator" "Validators" >}}, {{< glossary "service-provider" "Service Providers" >}}, {{< glossary "watcher-publisher" "Watcher Publishers" >}}, and {{< glossary "dapp-operator" "DApp Operators" >}}. The Laconic Network makes blockchain data more accessible, enables independent verifiability via cryptographic proofs, and is a decentralized marketplace for matching DApps with Service Providers to serve custom data APIs known as Watchers.
 
-## What does "Laconic" mean?
+## What is "Laconic"?
 
 Referencing the ancient inhabitants of Laconia known for their more concise and terse style of speech, <em>Laconic</em> also describes a manner of speaking or writing that uses only a few words, often to express complex thoughts and ideas.
 
