@@ -122,13 +122,25 @@
     }
   }
   // specific to links inside FAQ and glossary content
-  ul .content, il .content {
+  ul .content, li .content {
     a {
-    text-decoration: underline;
-    font-size: 100%;
-    color: $primary-color;
+      text-decoration: underline;
+      font-size: 100%;
+      color: $primary-color;
+    }
+    p {
+      margin-bottom: .5rem;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      a {
+        padding: 0;
+      }
+    }
   }
-}
+  ul.list > li:last-child {
+    margin-bottom: 3rem;
+  }
 }
 
 .pagination {
