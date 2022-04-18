@@ -1,13 +1,23 @@
 {{ range sort $.Site.Data.categories.faq "weight" "asc"}}
-		<h3>{{ .name }}</h3>
-		<div>
-		<ul>
+	<h3 class="mb-3 mt-1" >{{ .name }}</h3>
+	<div>
+		<ul class="list">
+		{{ range where site.Pages "Params.category" "==" .id  }}
+			<li>
+				<a href="#{{ .File.BaseFileName | anchorize }}" id="{{ .File.BaseFileName | anchorize }}" class="anchor">{{ .Params.Title }}</a>
+				<div class="content mb-3">{{ .Content }}</div>
+			</li>
+		{{ end }}
+		</ul>
+		{{/* 
+			<ul>
 			{{ range where site.Pages "Params.category" "==" .id  }}
 				<li>
-				<a href="#{{ .File.BaseFileName | anchorize }}" id="{{ .File.BaseFileName | anchorize }}" class="anchor">{{ .Params.Title }}</a>
-			<div class="content">{{ .Content | markdownify }}</div>
+					<a href="#{{ .File.BaseFileName | anchorize }}" id="{{ .File.BaseFileName | anchorize }}" class="anchor">{{ .Params.Title }}</a>
+					<div class="content">{{ .Content | markdownify }}</div>
 				</li>
 			{{ end }}
-		</ul>
-		</div>
+			</ul>
+			 */}}
+	</div>
 {{ end }}
