@@ -110,7 +110,6 @@ preloader = "" # use jpg, png, svg or gif format.
 #label = "contact"
 #link = "contact"
 
-
 ############################# social site ########################
 [[params.social]]
 title = "twitter"
@@ -170,14 +169,11 @@ name = "Home"
 url = ""
 weight = 1
 
-
 [[Languages.en.menu.main]]
 name = "Docs"
 url = "docs"
 weight = 2
 hasChildren = false
-
-  
 
 [[Languages.en.menu.main]]
 name = "FAQ"
@@ -200,6 +196,3 @@ weight = 5
 name = "Laconic.com"
 url = "https://laconic.com"
 weight = 2
-
-
-
