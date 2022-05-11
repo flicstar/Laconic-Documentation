@@ -81,7 +81,6 @@ secondary_font = ""
 secondary_font_type = "" # [serif/sans-serif]
 icon_font = "Font Awesome 5 Free"
 
-
 #################### default parameters ################################
 [params]
 logo = "images/logo.svg"
