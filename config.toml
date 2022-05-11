@@ -84,8 +84,8 @@ icon_font = "Font Awesome 5 Free"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
-favicon = "images/favicon.png"
+logo = "images/logo.svg"
+favicon = "images/favicon.ico"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"

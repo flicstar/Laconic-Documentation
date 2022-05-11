@@ -18,7 +18,7 @@
       </div>
       <div class="col-lg-7 col-md-8">
         <div class="px-lg-5 px-4 pt-5">
-          <h2 class="mb-4 font-weight-medium">{{ .Title }}</h2>
+          <h2 class="mb-4">{{ .Title }}</h2>
           {{ if .Content }}
           <div class="content" data-spy="scroll" data-target="#TableOfContents" data-offset="20">{{.Content}}</div>
           {{ else }}
@@ -93,11 +93,11 @@
 <li data-nav-id="{{.Permalink}}" title="{{.Title}}"
   class="sidelist {{if .IsAncestor $currentNode }}parent{{end}} {{if eq $fileUniqueID $currentNodeFileUniqueID}}active{{end}}">
   {{ if eq .Type "faq" }}
-    <a href="{{ print "#" .File.BaseFileName | path.Join .Type | relURL }}">{{ .Params.Title }}</a>
+    <a href="{{ print "#" .File.BaseFileName | path.Join .Type | relURL }}"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" style="color: currentcolor;"><path d="M9 18l6-6-6-6"></path></svg>{{ .Params.Title }}</a>
   {{ else if eq .Type "glossary" }}
-    <a href="{{ print "#" .File.BaseFileName | path.Join .Type | relURL }}">{{ .Title }}</a>
+    <a href="{{ print "#" .File.BaseFileName | path.Join .Type | relURL }}"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" style="color: currentcolor;"><path d="M9 18l6-6-6-6"></path></svg>{{ .Title }}</a>
   {{ else }}
-    <a href="{{.Permalink}}">{{.Title }}</a>
+    <a href="{{.Permalink}}"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20" style="color: currentcolor;"><path d="M9 18l6-6-6-6"></path></svg>{{.Title }}</a>
   {{end}}
   {{ $numberOfPages := (add (len .Pages) (len .Sections)) }}
   {{ if ne $numberOfPages 0 }}

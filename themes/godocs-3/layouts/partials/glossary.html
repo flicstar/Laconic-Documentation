@@ -5,7 +5,7 @@
 			<summary>
 				<a href="#{{ .File.BaseFileName | anchorize }}" id="{{ .File.BaseFileName | anchorize }}" class="anchor"></a>
 				<strong>{{ .Title }}:</strong> {{ .Description }}</summary>
-			<div class="content">{{ .Content | markdownify }}</div>
+			<div class="content mb-4">{{ .Content | markdownify }}</div>
 		</details>
 	</ul>
 	{{ end }}
