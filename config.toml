@@ -170,14 +170,11 @@ name = "Home"
 url = ""
 weight = 1
 
-
 [[Languages.en.menu.main]]
 name = "Docs"
 url = "docs"
 weight = 2
 hasChildren = false
-
-  
 
 [[Languages.en.menu.main]]
 name = "FAQ"
