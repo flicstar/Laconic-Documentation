@@ -5,7 +5,7 @@
 		{{ range where site.Pages "Params.category" "==" .id  }}
 			<li>
 				<a href="#{{ .File.BaseFileName | anchorize }}" id="{{ .File.BaseFileName | anchorize }}" class="anchor">{{ .Params.Title }}</a>
-				<div class="content mb-3">{{ .Content }}</div>
+				<div class="content mb-4">{{ .Content }}</div>
 			</li>
 		{{ end }}
 		</ul>

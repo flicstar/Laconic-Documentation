@@ -1,4 +1,4 @@
-// Preloader js  
+// Preloader js
 function preloader() {
 	$('.preloader').delay(100).fadeOut(10);
 }
@@ -156,4 +156,25 @@ $(document).on("turbolinks:load", preloader);
 	})
 
 
+    const anchors = $('.anchor');
+    const sidelists = $('.sidelist');
+
+    if (window.location.pathname == '/faq/' || window.location.pathname == '/glossary/') {
+      $(window).scroll(() => {
+        let current = '';
+        let current_height = $(document).height();
+        anchors.each(function() {
+          const anchor_top = $(this).offset().top;
+          let offset = (window.location.pathname == '/faq/') ? $(this).height() : $(this).height() + 100;
+          if ($(window).scrollTop() <= anchor_top - offset && anchor_top < current_height) {
+            current = $(this).attr('id');
+            current_height = anchor_top;
+          }
+        });
+
+        sidelists.removeClass('active');
+        $('a[href$="#' + current + '"]').parent().addClass('active');
+      });
+    }
 })(jQuery);
+

@@ -81,11 +81,10 @@ secondary_font = ""
 secondary_font_type = "" # [serif/sans-serif]
 icon_font = "Font Awesome 5 Free"
 
-
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
-favicon = "images/favicon.png"
+logo = "images/logo.svg"
+favicon = "images/favicon.ico"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
@@ -109,7 +108,6 @@ preloader = "" # use jpg, png, svg or gif format.
 #style = "solid" # available style: solid, outline
 #label = "contact"
 #link = "contact"
-
 
 ############################# social site ########################
 [[params.social]]
@@ -197,6 +195,3 @@ weight = 5
 name = "Laconic.com"
 url = "https://laconic.com"
 weight = 2
-
-
-
