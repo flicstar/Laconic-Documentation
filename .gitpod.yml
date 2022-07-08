@@ -1,7 +1,5 @@
 tasks:
   - name: Install Hugo and Dependencies
-    before: brew install hugo && npm install && sudo apt install git-restore-mtime
-    init: git restore-mtime --force
     command: hugo server -D
 ports:
   - port: 1313
